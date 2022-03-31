@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="landingpage is done except the accordion">
-      <change afterPath="$PROJECT_DIR$/accordion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admincrud-system.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/admincrud-system.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/laravel8crudapplication/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ALA-PROJECT-HOBO.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminlogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminregister.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincrud-system.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincrud-system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/laravel8crudapplication/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -213,6 +206,8 @@
       <workItem from="1648046696037" duration="37000" />
       <workItem from="1648453643268" duration="1713000" />
       <workItem from="1648627907185" duration="3496000" />
+      <workItem from="1648728490166" duration="2364000" />
+      <workItem from="1648735076789" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="starting homepage">
       <created>1647934959132</created>
