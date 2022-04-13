@@ -24,13 +24,10 @@
         </div>
         <nav class="main-nav">
             <a href="home.php">Home</a>
-            <a href="home.php">TV Shows</a>
-            <a href="home.php">Movies</a>
         </nav>
         <nav class="sub-nav">
             <a href="searchbar.php"><i class="fas fa-search sub-nav-logo"></i></a>
-            <button class="openbtn " onclick="openNav()">🔔</button>
-            <a href="#">Account</a>
+            <button class="openbtn " onclick="openNav()">⚙️</button>
         </nav>
     </header>
 

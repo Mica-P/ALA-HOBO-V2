@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="start fixing home">
+    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="homepage domne">
+      <change afterPath="$PROJECT_DIR$/videovenster.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/searchbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/searchbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/searchbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +227,7 @@
       <workItem from="1649773596574" duration="63000" />
       <workItem from="1649837916454" duration="2071000" />
       <workItem from="1649844935170" duration="305000" />
-      <workItem from="1649847612395" duration="2715000" />
+      <workItem from="1649847612395" duration="7428000" />
     </task>
     <task id="LOCAL-00001" summary="starting homepage">
       <created>1647934959132</created>
@@ -245,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647936989891</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homepage domne">
+      <created>1649850402666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649850402666</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +279,7 @@
     <MESSAGE value="ending homepage" />
     <MESSAGE value="fixing homepage" />
     <MESSAGE value="start fixing home" />
-    <option name="LAST_COMMIT_MESSAGE" value="start fixing home" />
+    <MESSAGE value="homepage domne" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage domne" />
   </component>
 </project>

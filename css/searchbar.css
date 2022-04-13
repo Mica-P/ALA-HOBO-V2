@@ -1,0 +1,107 @@
+/*body {*/
+/*    background-color: #141414;*/
+/*}*/
+/*.search-box {*/
+/*    border: 1px solid white;*/
+/*    background-color: red;*/
+/*    height: 90vh;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*}*/
+/*form {*/
+/*    margin-top: 10vh;*/
+/*    border: 1px solid white;*/
+/*}*/
+
+html {
+    background-color: #141414;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    padding-top: 20vh;
+}
+
+
+
+input {
+    box-sizing: border-box;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.wrapper {
+    text-align: center;
+    position: relative;
+    height: 80px;
+    font-size: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search {
+    padding: 0 30px;
+    font-size: 18px;
+    width: 60%;
+    max-width: 400px;
+    height: 80px;
+    border-radius: 20px 0 0 20px;
+}
+
+.submit {
+    cursor: pointer;
+    border: none;
+   background-color: #92D050;
+    background-size: 35px 35px;
+    border-radius: 0 20px 20px 0;
+    padding: 15px 25px;
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+}
+
+.zoekding {
+    display: flex;
+    justify-content: center;
+}
+.zoekding .plaatje {
+    height: 50%;
+    padding: 4vh;
+    font-size: 2rem;
+}
+.serieName {
+    color: white;
+    font-size: 3rem;
+    margin-left: 5vw;
+    padding: 4vh;
+}
+.imdblink {
+    position: absolute;
+    font-size: 1.7rem;
+    margin-top: 20vh;
+    color: white;
+    margin-right: 25vw;
+}
+.IMDB-text {
+    position: absolute;
+    font-size: 1.7rem;
+    margin-top: 20vh;
+    color: white;
+    margin-right: 25vw;
+}
+.video-text {
+    position: absolute;
+    font-size: 1.7rem;
+    margin-top: 28vh;
+    color: white;
+    margin-right: 25vw;
+}
+.goback {
+    position: absolute;
+    background-color: #92D050;
+    margin-top: -25vh;
+    background-size: 35px 35px;
+    border-radius: 0 20px 20px 0;
+    width: 150px;
+    height: 100px;
+    color: white;
+}
