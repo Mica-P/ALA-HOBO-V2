@@ -57,5 +57,9 @@ class User extends DbConfig{
         }
     }
 
+    public function urlForImage($id){
+        return substr('0000' . $id, -5);
+    }
+
 }
 ?>
