@@ -57,47 +57,50 @@ include_once 'navbar.php';
 
 <section class="main-container" >
     <div class="location" id="home">
-
-    <h1 id="#home">Trending</h1>
+    <h1 id="#home">My list</h1>
     <div class="box">
         <?php
         $sql = "SELECT * FROM serie  LIMIT 6; ";
         $result = $conn->query($sql);
         while($record = mysqli_fetch_assoc($result)){
         ?>
-        <a href ="https://www.imdb.com/title/<?php echo $record['IMDBLink'] ?>"><img class='plaatje' src="images/images/images/<?php echo $record['SerieID']?>.jpg" onError="this.src='images/LOGO.png'"><br>
+            <a href ="https://www.imdb.com/title/<?php echo $record['IMDBLink'] ?>"><img class='plaatje' src="images/images/images/<?php echo $record['SerieID']?>.jpg" onError="this.src='images/LOGO.png'"><br></a>
         <?php
         }
         ?>
     </div>
+
+        <h1 id="#home">Trending</h1>
+        <div class="box">
+            <?php
+            $sql = "SELECT * FROM serie ORDER BY SerieID LIMIT 6 OFFSET 6; ";
+            $result = $conn->query($sql);
+            while($record = mysqli_fetch_assoc($result)){
+            ?>
+                <a href ="https://www.imdb.com/title/<?php echo $record['IMDBLink'] ?>"><img class='plaatje' src="images/images/images/<?php echo $record['SerieID']?>.jpg" onError="this.src='images/LOGO.png'"><br></a>
+                <?php
+                }
+                ?>
+        </div>
+
+
 </section>
 
 <table style="width:95%">
     <h1 class="genres">Genres</h1>
-    <tr>
-        <th>Animation</th>
-        <th>Biography</th>
-        <th>Drama</th>
-        <th>Historical</th>
-        <th>Mystery</th>
-        <th>Thriller</th>
-    </tr>
-    <tr>
-        <th>Action</th>
-        <th>Comedy</th>
-        <th>Documentary</th>
-        <th>Horror</th>
-        <th>Romance</th>
-        <th>War</th>
-    </tr>
-    <tr>
-        <th>Adventure</th>
-        <th>Crime</th>
-        <th>Fantasy</th>
-        <th>Muscial</th>
-        <th>Science fiction</th>
-        <th>Western</th>
-    </tr>
+    <?php
+    $sql = "SELECT * FROM genre ORDER BY GenreID";
+    $result = $conn->query($sql);
+    while($record = mysqli_fetch_assoc($result)){
+        ?>
+        <tr>
+            <th><a href=""><?php echo $record['GenreNaam']; ?></a></th>
+        </tr>
+        <?php
+    }
+    ?>
+
+
 </table>
 
 
