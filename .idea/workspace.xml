@@ -1,17 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="adding admin register, login for the admin crud system | almost done">
-      <change afterPath="$PROJECT_DIR$/display_images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
+    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="start fixing home">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminlogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminregister.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/display_images.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage2.php" beforeDir="false" afterPath="$PROJECT_DIR$/homepage2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/sanctum.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/lang/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/css/searchbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel8crudapplication/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/searchbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +109,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="developer" />
+        <entry key="$PROJECT_DIR$" value="fixinghome" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -175,7 +259,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sub-template" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -186,6 +271,7 @@
       <recent name="D:\XAMPP\htdocs\SCHOOL\ALA\ALA-project\ALA-PROJECT-HOBO\images\residentevil" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\SCHOOL\ALA\ALA-HOBO-V2\sub-template" />
       <recent name="D:\XAMPP\htdocs\SCHOOL\ALA\ALA-project\ALA-PROJECT-HOBO" />
       <recent name="D:\XAMPP\htdocs\SCHOOL\ALA\ALA-project\ALA-PROJECT-HOBO\laravel8crudapplication" />
     </key>
@@ -268,6 +354,7 @@
     <MESSAGE value="starting homepage" />
     <MESSAGE value="ending homepage" />
     <MESSAGE value="fixing homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing homepage" />
+    <MESSAGE value="start fixing home" />
+    <option name="LAST_COMMIT_MESSAGE" value="start fixing home" />
   </component>
 </project>

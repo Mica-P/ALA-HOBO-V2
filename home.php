@@ -61,7 +61,7 @@ include_once 'navbar.php';
     <h1 id="#home">Trending</h1>
     <div class="box">
         <?php
-        $sql = "SELECT * FROM serie   ";
+        $sql = "SELECT * FROM serie  LIMIT 6; ";
         $result = $conn->query($sql);
         while($record = mysqli_fetch_assoc($result)){
         ?>

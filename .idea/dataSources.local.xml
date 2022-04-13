@@ -3,12 +3,7 @@
   <component name="dataSourceStorageLocal" created-in="PS-213.6777.58">
     <data-source name="@localhost" uuid="9078b272-5f60-4370-81ff-032f5dd6004a">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
-      <secret-storage>master_key</secret-storage>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" negative="1" />
-        </introspection-scope>
-      </schema-mapping>
+      <schema-mapping />
     </data-source>
   </component>
 </project>
