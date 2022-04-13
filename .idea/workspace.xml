@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="landingpage is done except the accordion">
-      <change afterPath="$PROJECT_DIR$/DbConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminlogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminregister.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage2.php" afterDir="false" />
+    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="adding admin register, login for the admin crud system | almost done">
+      <change afterPath="$PROJECT_DIR$/display_images.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searchbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admincrud-system.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincrud-system.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage2.php" beforeDir="false" afterPath="$PROJECT_DIR$/homepage2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +171,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -178,6 +181,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\SCHOOL\ALA\ALA-HOBO-V2" />
       <recent name="D:\XAMPP\htdocs\SCHOOL\ALA\ALA-project\ALA-PROJECT-HOBO\images" />
       <recent name="D:\XAMPP\htdocs\SCHOOL\ALA\ALA-project\ALA-PROJECT-HOBO\images\residentevil" />
     </key>
@@ -208,6 +212,19 @@
       <workItem from="1648627907185" duration="3496000" />
       <workItem from="1648728490166" duration="2364000" />
       <workItem from="1648735076789" duration="1661000" />
+      <workItem from="1649233199869" duration="508000" />
+      <workItem from="1649235374808" duration="1370000" />
+      <workItem from="1649262567786" duration="5751000" />
+      <workItem from="1649328429896" duration="425000" />
+      <workItem from="1649329534871" duration="965000" />
+      <workItem from="1649333113875" duration="20000" />
+      <workItem from="1649333376070" duration="95000" />
+      <workItem from="1649664240881" duration="5668000" />
+      <workItem from="1649679817385" duration="8095000" />
+      <workItem from="1649747804649" duration="704000" />
+      <workItem from="1649758075286" duration="79000" />
+      <workItem from="1649773596574" duration="63000" />
+      <workItem from="1649837916454" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="starting homepage">
       <created>1647934959132</created>

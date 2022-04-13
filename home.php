@@ -16,8 +16,29 @@
 </head>
 <body>
 <?php
-include "navbar.html";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "hobo2022";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+include_once 'navbar.php';
 ?>
+
+
+
+
+
+
+
+
+
+
 <img class="residentbox" src="images/residentevil/Rectangle 13.png">
 <img class="residentbox2" src="images/residentevil/Rectangle 14.png">
 <img class="box2" src="images/residentevil/Rectangle 15.png">
@@ -36,27 +57,21 @@ include "navbar.html";
 
 <section class="main-container" >
     <div class="location" id="home">
-        <h1 id="#home">Continue watching Jane Doe</h1>
-        <div class="box">
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p3.PNG?raw=true" alt=""></a>
-        </div>
-        <h1 id="#home">My list</h1>
-        <div class="box">
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m1.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m2.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m3.PNG?raw=true" alt=""></a>
-        </div>
-    </div>
+
     <h1 id="#home">Trending</h1>
     <div class="box">
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>
-    </div>
+        <?php
+        $sql = "SELECT * FROM serie   ";
+        $result = $conn->query($sql);
+        while($record = mysqli_fetch_assoc($result)){
+        ?>
+        <a href ="https://www.imdb.com/title/<?php echo $record['IMDBLink'] ?>"><img class='plaatje' src="images/images/images/<?php echo $record['SerieID']?>.jpg" onError="this.src='images/LOGO.png'"><br>
+        <?php
+        }
+        ?>
     </div>
 </section>
+
 <table style="width:95%">
     <h1 class="genres">Genres</h1>
     <tr>
@@ -87,7 +102,7 @@ include "navbar.html";
 
 
 
-
+</body>
 
 <?php
 
