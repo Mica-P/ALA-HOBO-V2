@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="landingpage is done except the accordion">
-      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminlogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminlogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminregister.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminregister.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loginStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage2.php" beforeDir="false" afterPath="$PROJECT_DIR$/homepage2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landingpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/landingpage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +219,7 @@
       <workItem from="1649837916454" duration="2071000" />
       <workItem from="1649883803217" duration="2634000" />
       <workItem from="1649971144153" duration="4103000" />
-      <workItem from="1650035937101" duration="7271000" />
+      <workItem from="1650035937101" duration="7920000" />
     </task>
     <task id="LOCAL-00001" summary="starting homepage">
       <created>1647934959132</created>
