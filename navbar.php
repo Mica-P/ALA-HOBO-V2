@@ -18,7 +18,7 @@
     <!-- HEADER -->
     <header>
         <div class="netflixLogo">
-            <a id="logo" href="#home">
+            <a id="logo" href="home.php">
                 <img src="images/LOGO.png" alt="Logo Image">
             </a>
         </div>
