@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="homepage domne">
-      <change afterPath="$PROJECT_DIR$/css/loginStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+    <list default="true" id="8e59c057-eeeb-469f-9718-d76888cdd4c6" name="Changes" comment="Kas - Login/Register">
+      <change afterPath="$PROJECT_DIR$/settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649850402666</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kas - Login/Register">
+      <created>1650058129460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650058129460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Kas - Login/Register">
+      <created>1650058136865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650058136865</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +293,7 @@
     <MESSAGE value="fixing homepage" />
     <MESSAGE value="start fixing home" />
     <MESSAGE value="homepage domne" />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage domne" />
+    <MESSAGE value="Kas - Login/Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kas - Login/Register" />
   </component>
 </project>

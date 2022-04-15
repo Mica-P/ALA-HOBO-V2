@@ -71,8 +71,8 @@
 <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <a href="#">Account</a>
-    <a href="#">Settings</a>
-    <a href="#">Logout</a>
+    <a href="settings.php">Settings</a>
+    <a href="landingpage.php">Logout</a>
 </div>
 
 
