@@ -16,8 +16,29 @@
 </head>
 <body>
 <?php
-include "navbar.html";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "hobo2022";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+include_once 'navbar.php';
 ?>
+
+
+
+
+
+
+
+
+
+
 <img class="residentbox" src="images/residentevil/Rectangle 13.png">
 <img class="residentbox2" src="images/residentevil/Rectangle 14.png">
 <img class="box2" src="images/residentevil/Rectangle 15.png">
@@ -36,58 +57,55 @@ include "navbar.html";
 
 <section class="main-container" >
     <div class="location" id="home">
-        <h1 id="#home">Continue watching Jane Doe</h1>
-        <div class="box">
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p3.PNG?raw=true" alt=""></a>
-        </div>
-        <h1 id="#home">My list</h1>
-        <div class="box">
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m1.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m2.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m3.PNG?raw=true" alt=""></a>
-        </div>
-    </div>
-    <h1 id="#home">Trending</h1>
+    <h1 id="#home">My list</h1>
     <div class="box">
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
-        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>
+        <?php
+        $sql = "SELECT * FROM serie  LIMIT 6; ";
+        $result = $conn->query($sql);
+        while($record = mysqli_fetch_assoc($result)){
+        ?>
+            <a href ="https://www.imdb.com/title/<?php echo $record['IMDBLink'] ?>"><img class='plaatje' src="images/images/images/<?php echo $record['SerieID']?>.jpg" onError="this.src='images/LOGO.png'"><br></a>
+        <?php
+        }
+        ?>
     </div>
-    </div>
+
+        <h1 id="#home">Trending</h1>
+        <div class="box">
+            <?php
+            $sql = "SELECT * FROM serie ORDER BY SerieID LIMIT 6 OFFSET 6; ";
+            $result = $conn->query($sql);
+            while($record = mysqli_fetch_assoc($result)){
+            ?>
+                <a href ="https://www.imdb.com/title/<?php echo $record['IMDBLink'] ?>"><img class='plaatje' src="images/images/images/<?php echo $record['SerieID']?>.jpg" onError="this.src='images/LOGO.png'"><br></a>
+                <?php
+                }
+                ?>
+        </div>
+
+
 </section>
+
 <table style="width:95%">
     <h1 class="genres">Genres</h1>
-    <tr>
-        <th>Animation</th>
-        <th>Biography</th>
-        <th>Drama</th>
-        <th>Historical</th>
-        <th>Mystery</th>
-        <th>Thriller</th>
-    </tr>
-    <tr>
-        <th>Action</th>
-        <th>Comedy</th>
-        <th>Documentary</th>
-        <th>Horror</th>
-        <th>Romance</th>
-        <th>War</th>
-    </tr>
-    <tr>
-        <th>Adventure</th>
-        <th>Crime</th>
-        <th>Fantasy</th>
-        <th>Muscial</th>
-        <th>Science fiction</th>
-        <th>Western</th>
-    </tr>
+    <?php
+    $sql = "SELECT * FROM genre ORDER BY GenreID";
+    $result = $conn->query($sql);
+    while($record = mysqli_fetch_assoc($result)){
+        ?>
+        <tr>
+            <th><a href=""><?php echo $record['GenreNaam']; ?></a></th>
+        </tr>
+        <?php
+    }
+    ?>
+
+
 </table>
 
 
 
-
+</body>
 
 <?php
 

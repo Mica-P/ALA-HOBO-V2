@@ -1,55 +1,70 @@
-<html>
-    
+<?php
+require_once "User.php";
+
+$user = new user();
+
+if(isset($_POST['login'])){
+    echo $user->login($_POST);
+}
+?>
+
+
 <head>
-    <meta charset="utf-8">
-	<meta http-equiv="language" content="NL">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="Kas & Mica">
-    <meta name="keywords" content="streaming"> 
     <title>login</title>
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
-
-    <link rel="stylesheet" type="text/css" href="css/login-style.css">
+    <link rel="stylesheet" type="text/css" href="css/loginStyle.css">
 </head>
 
 
 
-
-<body>
-    
-
+<main>
     <div class="sidenav">
         <div class="login-main-text">
-            <img src="" alt="HOBO LOGO">
-        </div>
-    </div>
-    <div class="main">
-        <div class="col-md-6 col-sm-12">
-            <div class="login-form">
-                <form>
-                <div class="form-group">
-                    <label>E-mail</label>
-                    <input type="text" class="form-control" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" class="form-control" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-black">Forgot password?</button>
-                  <button type="submit" class="btn btn-black">Login</button>
-                  <button type="submit" class="btn btn-secondary">Register</button>
-                </form>
-            </div>
+            <img src="images/LOGO.png" alt="HOBO LOGO">
         </div>
     </div>
 
-</body>
+    <section class="form">
+        <form method="post" >
+            <label for="username" id="username">Gebruikersnaam: </label><br>
+            <input type="text" name="username" required><br>
+            <label for="password">Wachtwoord: </label><br>
+            <input type="password" name="password" required><br>
+            <label for="rememberMe">Onthoud mij</label><br>
+            <input type="checkbox" value="lsRememberMe" id="rememberMe"><br>
+
+            <input type="submit" name="login" value="Login">
+            <br>
+            <br>
+
+            <p>Nog geen account? <a href="register.php">Regestreer nu</a>.</p>
+        </form>
+    </section>
+</main>
 
 
 
-</html>
+
+
+<script>
+    const rmCheck = document.getElementById("rememberMe"),
+        emailInput = document.getElementById("email");
+
+    if (localStorage.checkbox && localStorage.checkbox !== "") {
+        rmCheck.setAttribute("checked", "checked");
+        emailInput.value = localStorage.username;
+    } else {
+        rmCheck.removeAttribute("checked");
+        emailInput.value = "";
+    }
+
+    function lsRememberMe() {
+        if (rmCheck.checked && emailInput.value !== "") {
+            localStorage.username = emailInput.value;
+            localStorage.checkbox = rmCheck.value;
+        } else {
+            localStorage.username = "";
+            localStorage.checkbox = "";
+        }
+    }
+</script>

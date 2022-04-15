@@ -85,15 +85,7 @@ header {
     padding: 0 40px 0 40px;
 }
 
-.sub-nav a {
-    color: var(--light);
-    text-decoration: none;
-    margin: 5px;
-}
 
-.sub-nav a:hover {
-    color: var(--dark);
-}
 
 
 /* MAIN CONTIANER */
