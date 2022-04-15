@@ -44,7 +44,7 @@
             </div>
 
             <div class="nav__item">
-                <button class="signin__button">Sign in</button>
+                <button class="signin__button"><a href="login.php">Nu inloggen</a></button>
             </div>
         </div>
     </nav>

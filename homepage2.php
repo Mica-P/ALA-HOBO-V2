@@ -1,6 +1,7 @@
 <?php
 require_once 'DbConfig.php';
 ?>
+<title>HOBO</title>
 <div class="wrapper">
     <div class="main_card">
         <div class="card_left">
